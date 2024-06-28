@@ -4,6 +4,7 @@ This repository is an original implementation for:
 
 >[NAACL 2024] [Rehearsal-Free Modular and Compositional Continual Learning for Language Models](https://arxiv.org/abs/2404.00790)
 
+🎈 June-2024: Our follow-up work, ["Learn it or Leave it: Module Composition and Pruning for Continual Learning"](https://arxiv.org/abs/2406.18708) (MoCL-P), has been accepted by the [Repl4NLP workshop](https://sites.google.com/view/repl4nlp2024) at ACL 2024! We will release the code for MoCL-P soon.
 
 ## 💡 Introduction
 
@@ -75,10 +76,11 @@ The code in this repository is open-sourced under the AGPL-3.0 license. See the 
 If you found our work useful for your research, please cite it as follows:
 
 ```latex
-@article{wang2024rehearsal,
+@inproceedings{wang2024rehearsal,
   title={Rehearsal-Free Modular and Compositional Continual Learning for Language Models},
   author={Wang, Mingyang and Adel, Heike and Lange, Lukas and Str{\"o}tgen, Jannik and Sch{\"u}tze, Hinrich},
-  journal={arXiv preprint arXiv:2404.00790},
+  booktitle={Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)},
+  pages={469--480},
   year={2024}
 }
 ```
